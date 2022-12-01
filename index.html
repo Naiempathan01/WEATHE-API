@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="section1">
+            <h1 class="heading1">Weather Api</h1>
+            <input type="text" placeholder="Location" id="cityinput">
+            <input type="text" placeholder="Acess Token" id="Acess" value="NCB8JKE9S4EUUS4ZBUL7T8QZS">
+            <button id="Btn" onclick="validate()">Submit</button>
+        </div>
+
+        <div class="section2">
+            <h1 class="heading2">Weather Data</h1>
+
+            <div class="data">
+                <div class="data-show">
+
+                    <p class="location txt">Location :</p>
+                    <p class="description txt">Lat :<span>Long :</span></p>
+                    <p class="time txt">TimeZone :</p>
+                    <p class="windspeed txt">Wind Speed :</p>
+                    <p class="pressure txt">Pressure :</p>
+                    <p class="windhumidity txt">Humidity :</p>
+                    <p class="winddirection txt">Wind Direction :</p>
+                    <p class="uvindex txt">UV index :</p>
+                    <p class="feellike txt">Feels Like :</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

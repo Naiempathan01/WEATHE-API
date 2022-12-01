@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    position: absolute;
+    width: 1728px;
+    height: 837px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+
+.heading1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 418px;
+    top: 101px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    color: #FFFFFF;
+}
+
+#cityinput,
+#Acess {
+    display: flex;
+    flex-direction: column;
+    margin: 120px 100px -70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 3.5rem;
+    width: 1200px;
+    background: #212121;
+    font-weight: 300;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-style: none;
+    background-color: transparent;
+    border: 1px solid #c2c2c2;
+    margin-right: 4px;
+    color: white;
+}
+
+#Btn {
+    position: absolute;
+    width: 260.75px;
+    height: 58px;
+    left: 100px;
+    top: 479px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.section2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 835px;
+}
+
+.heading2 {
+
+    left: 62px;
+    top: 941px;
+    padding-left: 10rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    color: #000000;
+}
+
+
+.data-show {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    padding: 10px 20px 30px;
+    width: 70%;
+    height: 1120px;
+    left: 62px;
+    top: 1136px;
+    border: 2px solid #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+.data-show p {
+    width: 669.46px;
+    width: 100%;
+    height: 100%;
+    top: 1192px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.description span {
+    margin-left: 50%;
+}
